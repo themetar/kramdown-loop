@@ -1,0 +1,5 @@
+# ignore everything in 'content' directory
+content/**
+
+# except for the directory itself (git ignores empty directories by default, therefore .keep file)
+!content/.keep
